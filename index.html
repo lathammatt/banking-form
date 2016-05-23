@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" href="">
+</head>
+<body>
+   <fieldset>
+    <legend>Applicant Info</legend>
+     <label for="first-name">Enter your first name</label>
+     <input id="first-name" type="text" name="first-name" class="input-buffer">
+     <label for="middle-initial">Enter your middle initial</label>
+     <input id="middle-initial" type="text" name="middle-initial" class="input-buffer">
+     <label for="last-name">Enter your last name</label>
+     <input id="last-name" type="text" name="last-name" class="input-buffer">
+     <label for="street">Enter your address</label>
+     <input id="street" type="text" name="street" class="input-buffer">
+     <label for="city">Enter your city</label>
+     <input id="city" type="text" name="city" class="input-buffer">
+     <label for="state">Enter your state</label>
+     <input id="state" type="text" name="state" class="input-buffer">
+     <label for="zip code">Enter your zip code</label>
+     <input id="zip code" type="text" name="zip code" class="input-buffer">
+
+     <label for="email-address">Enter your email address</label>
+     <input id="email-address" type="text" name="email" class="input-buffer">
+  </fieldset>
+
+   <fieldset>      
+   	<legend>Give us feedback</legend>
+     <label for="comments">Comments</label>
+     <textarea id="comments" name="comments" class="input-buffer"></textarea>
+    </fieldset>
+
+    <label for="feedback-type">Comment type</label>
+    <select id="feedback-type" name="type" class="input-buffer">
+      <option>Bug report</option>
+      <option>Praise</option>
+      <option>Feature request</option>
+    </select>
+
+    <fieldset>
+      <legend>Which product are you using</legend>
+
+      <input type="radio" name="product-type" value="word"> Word
+      <input type="radio" name="product-type" value="excel"> Excel
+      <input type="radio" name="product-type" value="powerpoint"> Powerpoint
+    </fieldset>
+
+    <fieldset>
+      <legend>What type of customer are you?</legend>
+
+      <input type="checkbox" name="student" value="student"> Student
+      <input type="checkbox" name="advanced" value="advanced"> Advanced User
+      <input type="checkbox" name="groundhog" value="whistlepig"> Groundhog
+    </fieldset>
+
+    <button type="submit">Submit Comments</button>
+
+</body>
+</html>
