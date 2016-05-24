@@ -21,43 +21,53 @@
      <input id="city" type="text" name="city" class="input-buffer">
      <label for="state">Enter your state</label>
      <input id="state" type="text" name="state" class="input-buffer">
-     <label for="zip code">Enter your zip code</label>
-     <input id="zip code" type="text" name="zip code" class="input-buffer">
-
-     <label for="email-address">Enter your email address</label>
-     <input id="email-address" type="text" name="email" class="input-buffer">
+     <label for="zip_code">Enter your zip code</label>
+     <input id="zip_code" type="text" name="zip code" class="input-buffer">
+   </fieldset>
+   <fieldset>
+      <legend>Employer Info</legend>
+       <label for="occupation">Enter your occupation</label>
+       <input id="occupation" type="text" name="occupation" class="input-buffer">
+       <label for="employer">Enter your employer</label>
+       <input id="employer" type="text" name="employer" class="input-buffer">
+       <label for="e_street">Enter your employer's address</label>
+       <input id="e_street" type="text" name="e_street" class="input-buffer">
+       <label for="e_city">Enter your employer's city</label>
+       <input id="e_city" type="text" name="e_city" class="input-buffer">
+       <label for="e_state">Enter your employer's state</label>
+       <input id="e_state" type="text" name="e_state" class="input-buffer">
+       <label for="e_zip_code">Enter your employer's zip code</label>
+       <input id="e_zip_code" type="text" name="e_zip code" class="input-buffer">
   </fieldset>
-
-   <fieldset>      
-   	<legend>Give us feedback</legend>
-     <label for="comments">Comments</label>
-     <textarea id="comments" name="comments" class="input-buffer"></textarea>
-    </fieldset>
-
-    <label for="feedback-type">Comment type</label>
-    <select id="feedback-type" name="type" class="input-buffer">
-      <option>Bug report</option>
-      <option>Praise</option>
-      <option>Feature request</option>
-    </select>
-
-    <fieldset>
-      <legend>Which product are you using</legend>
-
-      <input type="radio" name="product-type" value="word"> Word
-      <input type="radio" name="product-type" value="excel"> Excel
-      <input type="radio" name="product-type" value="powerpoint"> Powerpoint
-    </fieldset>
-
-    <fieldset>
-      <legend>What type of customer are you?</legend>
-
-      <input type="checkbox" name="student" value="student"> Student
-      <input type="checkbox" name="advanced" value="advanced"> Advanced User
-      <input type="checkbox" name="groundhog" value="whistlepig"> Groundhog
-    </fieldset>
-
-    <button type="submit">Submit Comments</button>
-
+  <fieldset>
+    <legend>Type of Loan</legend>
+      <select name="loan">
+        <option value="default">Select One</option>
+        <option value="commercial">Commercial</option>
+        <option value="real_estate">Real Estate</option>
+        <option value="personal">Personal</option>
+        <option value="mortage">Mortage</option>
+      </select>
+      <input type="text" name="amount" value="" placeholder="Amount of Loan">
+      <input type="radio" name="length" value="5 years" placeholder=""> 5 Years
+      <input type="radio" name="length" value="15 years" placeholder=""> 15 years
+      <input type="radio" name="length" value="30 years" placeholder=""> 30 years
+      <input type="checkbox" name="down_payment" value="down_payment"> I have a down payment
+      <input type="checkbox" name="out_state" value="out_state"> Out of State Resident
+      <input type="checkbox" name="married" value="married"> Married
+      <input type="checkbox" name="cosigned" value="cosigned"> Loan will be co-signed
+  </fieldset>
+  <fieldset>
+    <legend>Additional Comments</legend>
+    <textarea name="comment"></textarea>
+  </fieldset>
+  <fieldset>
+    <label for="email-address">Enter your email address</label>
+    <input id="email-address" type="text" name="email">
+    <label for="phone">Enter your phone number</label>
+    <input id="phone" type="text" name="phone">
+    <label for="linkdin">Enter your LinkdIn URL</label>
+    <input id="linkdin" type="text" name="linkdin">
+  </fieldset>
 </body>
 </html>
